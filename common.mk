@@ -7,6 +7,7 @@ common_includes += $(call project-path-for,qcom-display)/libhwcomposer
 common_includes += $(call project-path-for,qcom-display)/libexternal
 common_includes += $(call project-path-for,qcom-display)/libqservice
 common_includes += $(call project-path-for,qcom-display)/libvirtual
+common_includes += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 
 ifeq ($(TARGET_USES_POST_PROCESSING),true)
     common_flags     += -DUSES_POST_PROCESSING
